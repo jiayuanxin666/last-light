@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" class="room-svg photo-scene" role="group" aria-label="高校计算机实验室模拟场景，包含六个可点击的离场检查点">
+<defs>
+ <clipPath id="patch-drink"><rect x="414" y="431" width="70" height="109" rx="8"/></clipPath>
+ <clipPath id="patch-cable"><rect x="424" y="569" width="96" height="211" rx="10"/></clipPath>
+ <clipPath id="patch-exit"><rect x="634" y="586" width="373" height="426" rx="8"/></clipPath>
+ <clipPath id="patch-power"><rect x="1210" y="772" width="164" height="148" rx="10"/></clipPath>
+ <clipPath id="patch-fire"><rect x="35" y="306" width="267" height="654" rx="8"/></clipPath>
+</defs>
+<image href="assets/lab-before.webp" width="1536" height="1024" aria-hidden="true" pointer-events="none"/>
+<g class="safe-layer" data-safe-for="fire" aria-hidden="true" pointer-events="none"><image href="assets/lab-after.webp" width="1536" height="1024" clip-path="url(#patch-fire)"/></g>
+<g class="safe-layer" data-safe-for="drink" aria-hidden="true" pointer-events="none"><image href="assets/lab-after.webp" width="1536" height="1024" clip-path="url(#patch-drink)"/></g>
+<g class="safe-layer" data-safe-for="cable" aria-hidden="true" pointer-events="none"><image href="assets/lab-after.webp" width="1536" height="1024" clip-path="url(#patch-cable)"/></g>
+<g class="safe-layer" data-safe-for="exit" aria-hidden="true" pointer-events="none"><image href="assets/lab-after.webp" width="1536" height="1024" clip-path="url(#patch-exit)"/></g>
+<g class="safe-layer" data-safe-for="power" aria-hidden="true" pointer-events="none"><image href="assets/lab-after.webp" width="1536" height="1024" clip-path="url(#patch-power)"/></g>
+<!-- Labels are ordinary HTML/SVG typography, independently accessible from the generated teaching image. -->
+<g class="registration-label" aria-hidden="true" transform="translate(1303 350)"><rect width="187" height="30" rx="5" fill="#f6f3e5" fill-opacity=".93" stroke="#bfc7ad"/><circle cx="14" cy="15" r="3" fill="#738b58"/><text x="26" y="20" font-family="sans-serif" font-size="13" fill="#485e3c">夜间任务 · 已登记</text></g>
+<g class="hotspot" data-point="drink" role="button" tabindex="-1" aria-label="检查操作台上的饮料">
+ <rect class="hit-outline" x="407" y="422" width="91" height="128" rx="12"/>
+ <circle class="hint-ring" cx="452" cy="488" r="62"/>
+ <g class="done-mark" transform="translate(485 433)"><circle r="17" fill="#4c7555" stroke="#e8ecdd" stroke-width="2"/><path d="M-7 0l5 5 9-11" stroke="#fff" stroke-width="2.5" fill="none"/></g>
+ <g class="hover-label" transform="translate(393 389)"><rect width="125" height="29" rx="5" fill="#f6f4e8"/><text x="62" y="20" text-anchor="middle" font-size="14" fill="#3e5946" font-family="sans-serif">观察操作台</text></g>
+</g>
+<g class="hotspot" data-point="exit" role="button" tabindex="-1" aria-label="检查通道里的纸箱">
+ <rect class="hit-outline" x="684" y="604" width="255" height="283" rx="13"/>
+ <circle class="hint-ring" cx="815" cy="750" r="137"/>
+ <g class="done-mark" transform="translate(916 625)"><circle r="17" fill="#4c7555" stroke="#e8ecdd" stroke-width="2"/><path d="M-7 0l5 5 9-11" stroke="#fff" stroke-width="2.5" fill="none"/></g>
+ <g class="hover-label" transform="translate(754 569)"><rect width="125" height="29" rx="5" fill="#f6f4e8"/><text x="62" y="20" text-anchor="middle" font-size="14" fill="#3e5946" font-family="sans-serif">观察通道</text></g>
+</g>
+<g class="hotspot" data-point="cable" role="button" tabindex="-1" aria-label="检查桌边的设备线缆">
+ <rect class="hit-outline" x="422" y="575" width="95" height="207" rx="12"/>
+ <g class="safe-version"><rect x="382" y="689" width="177" height="32" rx="5" fill="#f6eed6" stroke="#bb9b62"/><text x="470" y="710" text-anchor="middle" font-size="14" font-family="sans-serif" fill="#8c6e41">已停用 · 待专业检修</text></g><circle class="hint-ring" cx="462" cy="689" r="64"/>
+ <g class="done-mark" transform="translate(502 596)"><circle r="17" fill="#4c7555" stroke="#e8ecdd" stroke-width="2"/><path d="M-7 0l5 5 9-11" stroke="#fff" stroke-width="2.5" fill="none"/></g>
+ <g class="hover-label" transform="translate(404 539)"><rect width="125" height="29" rx="5" fill="#f6f4e8"/><text x="62" y="20" text-anchor="middle" font-size="14" fill="#3e5946" font-family="sans-serif">观察线缆</text></g>
+</g>
+<g class="hotspot" data-point="power" role="button" tabindex="-1" aria-label="检查地面的电源连接">
+ <rect class="hit-outline" x="1112" y="782" width="265" height="137" rx="12"/>
+ <circle class="hint-ring" cx="1247" cy="849" r="117"/>
+ <g class="done-mark" transform="translate(1357 800)"><circle r="17" fill="#4c7555" stroke="#e8ecdd" stroke-width="2"/><path d="M-7 0l5 5 9-11" stroke="#fff" stroke-width="2.5" fill="none"/></g>
+ <g class="hover-label" transform="translate(1188 746)"><rect width="125" height="29" rx="5" fill="#f6f4e8"/><text x="62" y="20" text-anchor="middle" font-size="14" fill="#3e5946" font-family="sans-serif">观察电源连接</text></g>
+</g>
+<g class="hotspot" data-point="fire" role="button" tabindex="-1" aria-label="检查消防设施周边">
+ <rect class="hit-outline" x="43" y="235" width="241" height="720" rx="12"/>
+ <circle class="hint-ring" cx="144" cy="504" r="115"/>
+ <g class="done-mark" transform="translate(124 257)"><circle r="17" fill="#4c7555" stroke="#e8ecdd" stroke-width="2"/><path d="M-7 0l5 5 9-11" stroke="#fff" stroke-width="2.5" fill="none"/></g>
+ <g class="hover-label" transform="translate(40 197)"><rect width="145" height="29" rx="5" fill="#f6f4e8"/><text x="72" y="20" text-anchor="middle" font-size="14" fill="#3e5946" font-family="sans-serif">观察消防设施</text></g>
+</g>
+<g class="hotspot" data-point="server" role="button" tabindex="-1" aria-label="检查夜间运行设备">
+ <rect class="hit-outline" x="1314" y="380" width="123" height="165" rx="12"/>
+ <circle class="hint-ring" cx="1377" cy="463" r="84"/>
+ <g class="done-mark" transform="translate(1434 397)"><circle r="17" fill="#4c7555" stroke="#e8ecdd" stroke-width="2"/><path d="M-7 0l5 5 9-11" stroke="#fff" stroke-width="2.5" fill="none"/></g>
+ <g class="hover-label" transform="translate(1309 548)"><rect width="145" height="29" rx="5" fill="#f6f4e8"/><text x="72" y="20" text-anchor="middle" font-size="14" fill="#3e5946" font-family="sans-serif">核对运行登记</text></g>
+</g>
+</svg>
