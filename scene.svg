@@ -13,7 +13,7 @@
 <g class="safe-layer" data-safe-for="exit" aria-hidden="true" pointer-events="none"><image href="assets/lab-after.webp" width="1536" height="1024" clip-path="url(#patch-exit)"/></g>
 <g class="safe-layer" data-safe-for="power" aria-hidden="true" pointer-events="none"><image href="assets/lab-after.webp" width="1536" height="1024" clip-path="url(#patch-power)"/></g>
 <!-- Labels are ordinary HTML/SVG typography, independently accessible from the generated teaching image. -->
-<g class="registration-label" aria-hidden="true" transform="translate(1303 350)"><rect width="187" height="30" rx="5" fill="#f6f3e5" fill-opacity=".93" stroke="#bfc7ad"/><circle cx="14" cy="15" r="3" fill="#738b58"/><text x="26" y="20" font-family="sans-serif" font-size="13" fill="#485e3c">夜间任务 · 已登记</text></g>
+
 <g class="hotspot" data-point="drink" role="button" tabindex="-1" aria-label="检查操作台上的饮料">
  <rect class="hit-outline" x="407" y="422" width="91" height="128" rx="12"/>
  <circle class="hint-ring" cx="452" cy="488" r="62"/>
@@ -44,10 +44,10 @@
  <g class="done-mark" transform="translate(124 257)"><circle r="17" fill="#4c7555" stroke="#e8ecdd" stroke-width="2"/><path d="M-7 0l5 5 9-11" stroke="#fff" stroke-width="2.5" fill="none"/></g>
  <g class="hover-label" transform="translate(40 197)"><rect width="145" height="29" rx="5" fill="#f6f4e8"/><text x="72" y="20" text-anchor="middle" font-size="14" fill="#3e5946" font-family="sans-serif">观察消防设施</text></g>
 </g>
-<g class="hotspot" data-point="server" role="button" tabindex="-1" aria-label="检查夜间运行设备">
+<g class="hotspot" data-point="server" role="button" tabindex="-1" aria-label="检查夜间运行登记"><g class="registration-label" transform="translate(1278 348)" aria-hidden="true"><g class="unsafe"><rect width="205" height="33" rx="5" fill="#fff0cf" stroke="#ba9456"/><text x="103" y="22" text-anchor="middle" font-size="15" font-family="sans-serif" fill="#725a33">夜间运行 · 未登记</text></g><g class="safe-version"><rect width="205" height="33" rx="5" fill="#f2f5e8" stroke="#839a72"/><text x="103" y="22" text-anchor="middle" font-size="15" font-family="sans-serif" fill="#425b43">已报告 · 待核验</text></g></g>
  <rect class="hit-outline" x="1314" y="380" width="123" height="165" rx="12"/>
  <circle class="hint-ring" cx="1377" cy="463" r="84"/>
  <g class="done-mark" transform="translate(1434 397)"><circle r="17" fill="#4c7555" stroke="#e8ecdd" stroke-width="2"/><path d="M-7 0l5 5 9-11" stroke="#fff" stroke-width="2.5" fill="none"/></g>
- <g class="hover-label" transform="translate(1309 548)"><rect width="145" height="29" rx="5" fill="#f6f4e8"/><text x="72" y="20" text-anchor="middle" font-size="14" fill="#3e5946" font-family="sans-serif">核对运行登记</text></g>
+ <g class="hover-label" transform="translate(1309 548)"><rect width="145" height="29" rx="5" fill="#f6f4e8"/><text x="72" y="20" text-anchor="middle" font-size="14" fill="#3e5946" font-family="sans-serif">检查运行登记</text></g>
 </g>
 </svg>
